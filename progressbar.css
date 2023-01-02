@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.progress-box{
+    display: flex;
+    flex-direction: column;
+}
+.progress-box .progress-line{
+   width: 100%;
+   margin-top: 15px;
+}
+.progress-box .progress-line .progress{
+   width: 60vw;
+   background-color: #b1b1b1;
+   height: 15px;
+  
+ }
+ .progress-box .progress-line .progress .progress-bar{
+    height: 100%;
+    width: 20%;
+   background-image: linear-gradient(to right, #FF357D,#FF5851,#F7931A,#F3BA27);;
+    position: relative;
+    transition: all 0.5s;
+  }
